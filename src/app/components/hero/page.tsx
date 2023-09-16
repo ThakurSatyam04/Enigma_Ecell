@@ -16,22 +16,18 @@ const Heropage = () => {
         <NavbarPage/>
       </div>
 
-      <div className='flex items-center justify-evenly gap-20 glex-wrap'>
-    <div className='w-4/12'>
-        <Image src={logo2} alt='Enigma logo' />
-    </div>
-    <div className='text-white text-4xl flex flex-col gap-5 relative'>
-        <div>THE</div>
-        <div>ENTREPRENEURSHIP</div>
-        <div>CELL OF</div>
-        <div> NMIT</div>
-    </div>
-</div>
-
-
-      
-
-
+      <div className='h-full flex items-center justify-evenly gap-20 glex-wrap'>
+        <div className='w-4/12'>
+            <Image src={logo2} alt='Enigma logo' />
+        </div>
+        <div className='min-h-[300px] border-r border-white text-white'></div>
+        <div className='text-white text-4xl flex flex-col items-center justify-center gap-5 relative'>
+            <div>THE</div>
+            <div>ENTREPRENEURSHIP</div>
+            <div>CELL OF <span className='text-[#F26938]'>NMIT</span></div>
+            <div> </div>
+        </div>
+      </div>
     </div>
   )
 }
