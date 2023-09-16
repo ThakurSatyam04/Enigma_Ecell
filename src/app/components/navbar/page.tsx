@@ -53,28 +53,28 @@ const NavbarPage = () => {
         } sm:flex mt-4 sm:mt-0 sm:flex-row gap-2 sm:gap-10 sm:ml-10 sm:mr-10`}
       >
         <li className='navbar_li'>
-          <a href="/">Home</a>
+          <a href="#">Home</a>
         </li>
         <li className='navbar_li'>
-          <a href="/about">About</a>
+          <a href="#">About</a>
         </li>
         <li className='navbar_li'>
-          <a href="/recruitment">Recruitment 23</a>
+          <a href="#">Recruitment 23</a>
         </li>
         <li className='navbar_li'>
-          <a href="/annual-report">Annual Report 21</a>
+          <a href="#">Annual Report 21</a>
         </li>
         <li className='navbar_li'>
-          <a href="/ideathon">Ideathon 23</a>
+          <a href="#">Ideathon 23</a>
         </li>
         <li className='navbar_li'>
-          <a href="/blogs">Blogs</a>
+          <a href="#">Blogs</a>
         </li>
         <li className='navbar_li'>
-          <a href="/team">Team</a>
+          <a href="#">Team</a>
         </li>
         <li className='navbar_li'>
-          <a href="/contact">Contact Us</a>
+          <a href="#">Contact Us</a>
         </li>
       </ul>
     </nav>
