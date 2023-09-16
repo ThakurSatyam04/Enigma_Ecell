@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero_bg{
+    background-color: #010D26;
+    min-height: 100vh;
+}
+
+.navbar_li{
+    color: #F26938;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.navbar_li:hover{
+    color: white;
+    cursor: pointer;
+    background: #656565;
+}
