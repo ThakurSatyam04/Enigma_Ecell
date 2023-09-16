@@ -3,6 +3,7 @@ import Image from 'next/image'
 import logo from '@/app/Assests/enigma logo 1.png'
 import logo2 from '@/app/Assests/enigma logo 2.png'
 import NavbarPage from '../navbar/page'
+import icon1 from '@/app/Icons/chevrons-down.svg'
 
 const Heropage = () => {
   return (
@@ -20,7 +21,10 @@ const Heropage = () => {
         <div className='w-4/12'>
             <Image src={logo2} alt='Enigma logo' />
         </div>
-        <div className='min-h-[300px] border-r border-white text-white'></div>
+        <div className='flex flex-col items-center justify-center'>
+          <div className='min-h-[300px] border-r border-white text-white'></div>
+          <div><Image src={icon1} alt='Icon'/></div>
+        </div>
         <div className='text-white text-4xl flex flex-col items-center justify-center gap-5 relative'>
             <div>THE</div>
             <div>ENTREPRENEURSHIP</div>
